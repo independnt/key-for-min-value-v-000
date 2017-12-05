@@ -12,5 +12,6 @@ def key_for_min_value(name_hash)
   name_hash.map do |value, key|
     if name_hash[value] == num
       value
-    end 
+    end
+  end
 end
