@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
 
   name_hash.map do |value, key|
     if key == num
-      value
+    return value
     end
   end
 end
