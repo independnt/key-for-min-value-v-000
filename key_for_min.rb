@@ -8,4 +8,5 @@ def key_for_min_value(name_hash)
       number = key
     end
   end
+  number
 end
