@@ -4,6 +4,7 @@ def key_for_min_value(name_hash)
   num = 1000
   name_hash.each do |value, key|
     puts value[key]
+    binding.pry
   end
 
   name_hash.map do |value, key|
