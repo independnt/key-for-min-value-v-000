@@ -6,6 +6,7 @@ def key_for_min_value(name_hash)
     if key > num
       num = key
     end
+    binding.pry
   end
 
   name_hash.map do |value, key|
